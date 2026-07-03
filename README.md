@@ -7,7 +7,7 @@ Salary management software for an HR manager handling 10,000 employees across mu
 - Backend: Node.js, Express, TypeScript, Prisma, PostgreSQL
 - Frontend: React, Vite, TypeScript
 - Validation: Zod
-- Tests: Vitest, Supertest
+- Tests: Vitest
 
 ## Monorepo
 
