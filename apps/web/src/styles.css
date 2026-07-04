@@ -122,10 +122,12 @@ label span {
 .content-stack {
   display: grid;
   gap: 16px;
+  min-width: 0;
 }
 
 .panel {
   padding: 24px;
+  min-width: 0;
 }
 
 .panel-header,
