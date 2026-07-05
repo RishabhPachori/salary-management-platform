@@ -436,6 +436,16 @@ export const App = () => {
 
           <div className="table-wrapper">
             <table>
+              <colgroup>
+                <col className="col-code" />
+                <col className="col-name" />
+                <col className="col-email" />
+                <col className="col-role" />
+                <col className="col-country" />
+                <col className="col-department" />
+                <col className="col-salary" />
+                <col className="col-actions" />
+              </colgroup>
               <thead>
                 <tr>
                   <th>Code</th>

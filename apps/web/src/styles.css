@@ -164,7 +164,7 @@ input {
 table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 1580px;
+  min-width: 1220px;
   table-layout: fixed;
 }
 
@@ -188,22 +188,45 @@ td strong {
   color: #101828;
 }
 
-.cell-name {
-  width: 15%;
-}
-
 .cell-email {
-  width: 24%;
   color: #667085;
   overflow-wrap: anywhere;
 }
 
 .cell-role {
-  width: 15%;
+  overflow-wrap: anywhere;
 }
 
-.cell-salary {
-  width: 14%;
+.col-code {
+  width: 9%;
+}
+
+.col-name {
+  width: 13%;
+}
+
+.col-email {
+  width: 18%;
+}
+
+.col-role {
+  width: 12%;
+}
+
+.col-country {
+  width: 10%;
+}
+
+.col-department {
+  width: 10%;
+}
+
+.col-salary {
+  width: 13%;
+}
+
+.col-actions {
+  width: 15%;
 }
 
 .cell-name strong {
@@ -211,7 +234,6 @@ td strong {
   white-space: nowrap;
 }
 
-.cell-role,
 .cell-salary,
 .cell-salary strong,
 .salary-currency {
@@ -226,25 +248,9 @@ td strong {
 }
 
 .table-actions {
-  gap: 12px;
+  gap: 8px;
   justify-content: flex-start;
   white-space: nowrap;
-}
-
-td:first-child {
-  width: 10%;
-}
-
-td:nth-child(5) {
-  width: 11%;
-}
-
-td:nth-child(6) {
-  width: 11%;
-}
-
-td:last-child {
-  width: 12%;
 }
 
 .pagination-row {
@@ -514,6 +520,6 @@ label {
   }
 
   table {
-    min-width: 1580px;
+    min-width: 1220px;
   }
 }
